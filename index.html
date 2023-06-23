@@ -55,8 +55,52 @@
           </tr>
         </tbody></table>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-				
 
+            
+
+    <tr onmouseout="iadsurvey_stop()" onmouseover="iadsurvey_start()">
+        <td style="padding:20px;width:25%;vertical-align:middle">
+            <div class="one">
+            <!-- <div class="two" id='graphcore_image'>
+                <video  width=100% height=100% muted autoplay loop>
+            <source src="images/bakedsdf_after.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+            </video>
+            </div> -->
+            <img src='images/iadsurvey.png' width="160">
+            </div>
+            <script type="text/javascript">
+            function iadsurvey_start() {
+                document.getElementById('iadsurvey_image').style.opacity = "1";
+            }
+    
+            function imiad_stop() {
+                document.getElementById('iadsurvey_image').style.opacity = "0";
+            }
+            imiad_stop()
+            </script>
+        </td>
+        <td style="padding:20px;width:75%;vertical-align:middle">
+            <a href="https://arxiv.org/pdf/2301.11514.pdf">
+            <papertitle>Deep Industrial Image Anomaly Detection: A Survey</papertitle>
+            </a>
+            <br>
+            <!-- <a href="https://lioryariv.github.io/">Lior Yariv*</a>, -->
+            <strong>Jiaqi Liu*</strong>, Guoyang Xie*, Jinbao Wang*, Shangnian Li, Chengjie Wang, Feng Zheng, Yaochu Jin
+            <br>
+            <em>Machine Intelligence Research (CiteScore 8.4, Q1 Journal)</em>, 2023
+            <br>
+            <a href="https://github.com/M-3LAB/awesome-industrial-anomaly-detection">project page</a>
+            <!-- / -->
+            <!-- <a href="https://www.youtube.com/watch?v=fThKXZ6uDTk">video</a> -->
+            /
+            <a href="https://arxiv.org/pdf/2301.11514.pdf">arXiv</a>
+            <p></p>
+            <p>
+            We provide a comprehensive review of deep learning-based IAD from the perspectives of neural network architectures, levels of supervision, loss functions, metrics and datasets. 
+            </p>
+        </td>
+    </tr>
 
     <tr onmouseout="graphcore_stop()" onmouseover="graphcore_start()">
       <td style="padding:20px;width:25%;vertical-align:middle">
@@ -96,57 +140,12 @@
         <!-- <a href="https://github.com/M-3LAB/open-iad">project page</a> -->
         <!-- / -->
         <!-- <a href="https://www.youtube.com/watch?v=fThKXZ6uDTk">video</a> -->
-        <a href="https://arxiv.org/pdf/2301.12082.pdf">arXiv</a>
+        <a href="https://openreview.net/pdf?id=xzmqxHdZAwO">paper</a>
         <p></p>
         <p>
           We reveal that rotation-invariant feature property has a significant impact in industrial-based fewshot anomaly detection.
         </p>
       </td>
-    </tr>
-
-
-    <tr onmouseout="iadsurvey_stop()" onmouseover="iadsurvey_start()">
-        <td style="padding:20px;width:25%;vertical-align:middle">
-          <div class="one">
-            <!-- <div class="two" id='graphcore_image'>
-              <video  width=100% height=100% muted autoplay loop>
-            <source src="images/bakedsdf_after.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-            </video>
-          </div> -->
-            <img src='images/iadsurvey.png' width="160">
-          </div>
-          <script type="text/javascript">
-            function iadsurvey_start() {
-              document.getElementById('iadsurvey_image').style.opacity = "1";
-            }
-  
-            function imiad_stop() {
-              document.getElementById('iadsurvey_image').style.opacity = "0";
-            }
-            imiad_stop()
-          </script>
-        </td>
-        <td style="padding:20px;width:75%;vertical-align:middle">
-          <a href="https://arxiv.org/pdf/2301.11514.pdf">
-            <papertitle>Deep Industrial Image Anomaly Detection: A Survey</papertitle>
-          </a>
-          <br>
-          <!-- <a href="https://lioryariv.github.io/">Lior Yariv*</a>, -->
-          <strong>Jiaqi Liu*</strong>, Guoyang Xie*, Jinbao Wang*, Shangnian Li, Chengjie Wang, Feng Zheng, Yaochu Jin
-          <br>
-          <em>Machine Intelligence Research (CiteScore 8.4, Q1 Journal)</em>, 2023
-          <br>
-          <a href="https://github.com/M-3LAB/awesome-industrial-anomaly-detection">project page</a>
-          <!-- / -->
-          <!-- <a href="https://www.youtube.com/watch?v=fThKXZ6uDTk">video</a> -->
-          /
-          <a href="https://arxiv.org/pdf/2301.11514.pdf">arXiv</a>
-          <p></p>
-          <p>
-            We provide a comprehensive review of deep learning-based IAD from the perspectives of neural network architectures, levels of supervision, loss functions, metrics and datasets. 
-          </p>
-        </td>
     </tr>
 
     <tr onmouseout="imiad_stop()" onmouseover="imiad_start()">
@@ -188,7 +187,7 @@
         <!-- / -->
         <!-- <a href="https://www.youtube.com/watch?v=fThKXZ6uDTk">video</a> -->
         /
-        <a href="https://arxiv.org/pdf/2301.13359.pdf">arXiv</a>
+        <a href="https://arxiv.org/pdf/2301.13359.pdf">paper</a>
         <p></p>
         <p>
           We propose a large-scale systematic benchmark and uniform setting for IAD to bridge the gap between academy and industrial manufacturing 
@@ -233,11 +232,11 @@
         Jinbao Wang,
         Feng Zheng, Yaochu Jin
         <br>
-        <em>CVPR VISION Workshop</em>, 2023
+        <em>CVPRW</em>, 2023
         <br>
         <!-- / -->
         <!-- <a href="https://www.youtube.com/watch?v=fThKXZ6uDTk">video</a> -->
-        <a href="https://arxiv.org/pdf/2304.03294.pdf">arXiv</a>
+        <a href="https://openaccess.thecvf.com/content/CVPR2023W/VISION/papers/Zhang_What_Makes_a_Good_Data_Augmentation_for_Few-Shot_Unsupervised_Image_CVPRW_2023_paper.pdf">paper</a>
         <p></p>
         <p>
           We systematically investigate various data augmentation methods for few-shot IAD algorithms.  
@@ -287,7 +286,7 @@
           <br>
           <!-- / -->
           <!-- <a href="https://www.youtube.com/watch?v=fThKXZ6uDTk">video</a> -->
-          <a href="https://github.com/M-3LAB/Real3D-AD">github</a>
+          <a href="https://github.com/M-3LAB/Real3D-AD">project page</a>
           <p></p>
           <p>
             We introduce a 3D point cloud dataset for industrial anomaly detection.  
