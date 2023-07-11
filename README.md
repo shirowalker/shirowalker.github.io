@@ -4,4 +4,4 @@ I will obtain a Master's degree in Engineering from Southern University of Scien
 
 I am currently seeking position in the field of computer vision or machine learning.
 
-Welcome to my page: [jiaqiliu.cn](jiaqiliu.cn).
+Welcome to my page: [[jiaqiliu.cn]](jiaqiliu.cn).
