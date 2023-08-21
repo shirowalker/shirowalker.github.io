@@ -84,7 +84,9 @@
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody></tbody>
 
 
-    <tr onmouseout="graphcore_stop()" onmouseover="graphcore_start()">
+
+
+    <tr onmouseout="nipsd_stop()" onmouseover="nipsd_start()">
       <td style="padding:20px;width:25%;vertical-align:middle">
         <div class="one">
           <!-- <div class="two" id='graphcore_image'>
@@ -93,136 +95,45 @@
           Your browser does not support the video tag.
           </video>
         </div> -->
-          <img src='images/graphcore.png' width="160">
+          <img src='images/real3d.png' width="160">
         </div>
         <script type="text/javascript">
-          function graphcore_start() {
-            document.getElementById('graphcore_image').style.opacity = "1";
+          function real3dad_start() {
+            document.getElementById('cvprw_image').style.opacity = "1";
           }
 
-          function graphcore_stop() {
-            document.getElementById('graphcore_image').style.opacity = "0";
+          function real3dad_stop() {
+            document.getElementById('cvprw_image').style.opacity = "0";
           }
-          graphcore_stop()
+          real3dad_stop()
         </script>
       </td>
       <td style="padding:20px;width:75%;vertical-align:middle">
-        <a href="https://arxiv.org/pdf/2301.12082.pdf">
-          <papertitle>Pushing the Limits of Fewshot Anomaly Detection in Industry Vision: Graphcore</papertitle>
+        <a href="https://github.com/M-3LAB/Real3D-AD">
+          <papertitle>Real3D-AD: A Dataset of Point Cloud Anomaly Detection</papertitle>
         </a>
         <br>
         <!-- <a href="https://lioryariv.github.io/">Lior Yariv*</a>, -->
-        <strong>
-        Jiaqi Liu*
-        </strong>,Guoyang Xie*,Jinbao Wang*, 
-         Feng Zheng, Yaochu Jin
+        <strong>Jiaqi Liu*</strong>,
+        Guoyang Xie*,
+        Ruitao Chen*,
+        Xinpeng Li,
+        Jinbao Wang,
+        Yong Liu,
+        Chengjie Wang,
+        Feng Zheng
         <br>
-        <em>ICLR</em>, 2023
+        <em>Submitted to NeurIPS dataset and benchmark track</em>, 2023
         <br>
-        <!-- <a href="https://github.com/M-3LAB/open-iad">project page</a> -->
         <!-- / -->
         <!-- <a href="https://www.youtube.com/watch?v=fThKXZ6uDTk">video</a> -->
-        <a href="https://openreview.net/pdf?id=xzmqxHdZAwO">paper</a>
+        <a href="https://github.com/M-3LAB/Real3D-AD">project page</a>
         <p></p>
         <p>
-          We reveal that rotation-invariant feature property has a significant impact in industrial-based fewshot anomaly detection.
+          We introduce a 3D point cloud dataset for industrial anomaly detection.  
         </p>
       </td>
     </tr>
-
-    <tr onmouseout="easynet_stop()" onmouseover="easynet_start()">
-      <td style="padding:20px;width:25%;vertical-align:middle">
-        <div class="one">
-          <!-- <div class="two" id='graphcore_image'>
-            <video  width=100% height=100% muted autoplay loop>
-          <source src="images/bakedsdf_after.mp4" type="video/mp4">
-          Your browser does not support the video tag.
-          </video>
-        </div> -->
-          <img src='images/easynet.png' width="160">
-        </div>
-        <script type="text/javascript">
-          function graphcore_start() {
-            document.getElementById('easynet_image').style.opacity = "1";
-          }
-
-          function graphcore_stop() {
-            document.getElementById('easynet_image').style.opacity = "0";
-          }
-          graphcore_stop()
-        </script>
-      </td>
-      <td style="padding:20px;width:75%;vertical-align:middle">
-        <a href="https://arxiv.org/abs/2307.13925">
-          <papertitle>EasyNet: An Easy Network for 3D Industrial Anomaly Detection</papertitle>
-        </a>
-        <br>
-        <!-- <a href="https://lioryariv.github.io/">Lior Yariv*</a>, -->
-        <strong>
-        Jiaqi Liu*
-        </strong>,Ruitao Chen*, Guoyang Xie*, 
-         Jinbao Wang, Ziqi Luo, Jinfan Wang, Feng Zheng
-        <br>
-        <em>ACM MM</em>, 2023
-        <br>
-        <!-- <a href="https://github.com/M-3LAB/open-iad">project page</a> -->
-        <!-- / -->
-        <!-- <a href="https://www.youtube.com/watch?v=fThKXZ6uDTk">video</a> -->
-        <a href="https://arxiv.org/abs/2307.13925">paper</a>
-        <p></p>
-        <p>
-          We introduce an RGBD anomaly detection algorithm that does not rely on pre-trained models or memory bank.
-        </p>
-      </td>
-
-      <tr onmouseout="nipsd_stop()" onmouseover="nipsd_start()">
-        <td style="padding:20px;width:25%;vertical-align:middle">
-          <div class="one">
-            <!-- <div class="two" id='graphcore_image'>
-              <video  width=100% height=100% muted autoplay loop>
-            <source src="images/bakedsdf_after.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-            </video>
-          </div> -->
-            <img src='images/real3d.png' width="160">
-          </div>
-          <script type="text/javascript">
-            function real3dad_start() {
-              document.getElementById('cvprw_image').style.opacity = "1";
-            }
-  
-            function real3dad_stop() {
-              document.getElementById('cvprw_image').style.opacity = "0";
-            }
-            real3dad_stop()
-          </script>
-        </td>
-        <td style="padding:20px;width:75%;vertical-align:middle">
-          <a href="https://github.com/M-3LAB/Real3D-AD">
-            <papertitle>Real3D-AD: A Dataset of Point Cloud Anomaly Detection</papertitle>
-          </a>
-          <br>
-          <!-- <a href="https://lioryariv.github.io/">Lior Yariv*</a>, -->
-          <strong>Jiaqi Liu*</strong>,
-          Guoyang Xie*,
-          Ruitao Chen*,
-          Xinpeng Li,
-          Jinbao Wang,
-          Yong Liu,
-          Chengjie Wang,
-          Feng Zheng
-          <br>
-          <em>Submitted to NeurIPS dataset and benchmark track</em>, 2023
-          <br>
-          <!-- / -->
-          <!-- <a href="https://www.youtube.com/watch?v=fThKXZ6uDTk">video</a> -->
-          <a href="https://github.com/M-3LAB/Real3D-AD">project page</a>
-          <p></p>
-          <p>
-            We introduce a 3D point cloud dataset for industrial anomaly detection.  
-          </p>
-        </td>
-      </tr>
 
     <tr onmouseout="iadsurvey_stop()" onmouseover="iadsurvey_start()">
         <td style="padding:20px;width:25%;vertical-align:middle">
@@ -268,6 +179,97 @@
         </td>
     </tr>
 
+    <tr onmouseout="graphcore_stop()" onmouseover="graphcore_start()">
+      <td style="padding:20px;width:25%;vertical-align:middle">
+        <div class="one">
+          <!-- <div class="two" id='graphcore_image'>
+            <video  width=100% height=100% muted autoplay loop>
+          <source src="images/bakedsdf_after.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+          </video>
+        </div> -->
+          <img src='images/graphcore.png' width="160">
+        </div>
+        <script type="text/javascript">
+          function graphcore_start() {
+            document.getElementById('graphcore_image').style.opacity = "1";
+          }
+
+          function graphcore_stop() {
+            document.getElementById('graphcore_image').style.opacity = "0";
+          }
+          graphcore_stop()
+        </script>
+      </td>
+      <td style="padding:20px;width:75%;vertical-align:middle">
+        <a href="https://arxiv.org/pdf/2301.12082.pdf">
+          <papertitle>Pushing the Limits of Fewshot Anomaly Detection in Industry Vision: Graphcore</papertitle>
+        </a>
+        <br>
+        <!-- <a href="https://lioryariv.github.io/">Lior Yariv*</a>, -->
+        Guoyang Xie*,Jinbao Wang*, 
+        <strong>
+        Jiaqi Liu*
+        </strong>, Feng Zheng, Yaochu Jin
+        <br>
+        <em>ICLR</em>, 2023
+        <br>
+        <!-- <a href="https://github.com/M-3LAB/open-iad">project page</a> -->
+        <!-- / -->
+        <!-- <a href="https://www.youtube.com/watch?v=fThKXZ6uDTk">video</a> -->
+        <a href="https://openreview.net/pdf?id=xzmqxHdZAwO">paper</a>
+        <p></p>
+        <p>
+          We reveal that rotation-invariant feature property has a significant impact in industrial-based fewshot anomaly detection.
+        </p>
+      </td>
+    </tr>
+
+    <tr onmouseout="easynet_stop()" onmouseover="easynet_start()">
+      <td style="padding:20px;width:25%;vertical-align:middle">
+        <div class="one">
+          <!-- <div class="two" id='graphcore_image'>
+            <video  width=100% height=100% muted autoplay loop>
+          <source src="images/bakedsdf_after.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+          </video>
+        </div> -->
+          <img src='images/easynet.png' width="160">
+        </div>
+        <script type="text/javascript">
+          function graphcore_start() {
+            document.getElementById('easynet_image').style.opacity = "1";
+          }
+
+          function graphcore_stop() {
+            document.getElementById('easynet_image').style.opacity = "0";
+          }
+          graphcore_stop()
+        </script>
+      </td>
+      <td style="padding:20px;width:75%;vertical-align:middle">
+        <a href="https://arxiv.org/abs/2307.13925">
+          <papertitle>EasyNet: An Easy Network for 3D Industrial Anomaly Detection</papertitle>
+        </a>
+        <br>
+        <!-- <a href="https://lioryariv.github.io/">Lior Yariv*</a>, -->
+        Ruitao Chen*, Guoyang Xie*, 
+        <strong>
+        Jiaqi Liu*
+        </strong>, Jinbao Wang, Ziqi Luo, Jinfan Wang, Feng Zheng
+        <br>
+        <em>ACM MM</em>, 2023
+        <br>
+        <!-- <a href="https://github.com/M-3LAB/open-iad">project page</a> -->
+        <!-- / -->
+        <!-- <a href="https://www.youtube.com/watch?v=fThKXZ6uDTk">video</a> -->
+        <a href="https://arxiv.org/abs/2307.13925">paper</a>
+        <p></p>
+        <p>
+          We introduce an RGBD anomaly detection algorithm that does not rely on pre-trained models or memory bank.
+        </p>
+      </td>
+    </tr>
 
     
     <tr onmouseout="cvprw_stop()" onmouseover="cvprw_start()">
